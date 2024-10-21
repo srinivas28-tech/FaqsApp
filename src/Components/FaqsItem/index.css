@@ -1,0 +1,49 @@
+.para {
+  margin-top: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.faqsItem {
+  border: 1px solid #e4e7eb;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  color: #52606d;
+}
+.faqsItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.plusButton {
+  color: #cb8805;
+  background-color: #ffff;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.question {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .para {
+    font-size: 14px;
+  }
+
+  .faqsItem h3 {
+    font-size: 18px;
+  }
+
+  .faqsItem p {
+    font-size: 14px;
+  }
+}

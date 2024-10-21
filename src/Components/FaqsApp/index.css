@@ -1,0 +1,36 @@
+.mainHeading {
+  color: #cb8805;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.faqsAppMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f5f8;
+}
+
+.faqsAppCard {
+  width: 65%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+@media (max-width: 768px) {
+  .faqsAppCard {
+    width: 95%;
+    margin-top: 0rem;
+    margin-bottom: 0px;
+    padding-top: 10px;
+  }
+
+  .mainHeading {
+    font-size: 24px;
+  }
+}
